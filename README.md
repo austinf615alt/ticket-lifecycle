@@ -47,7 +47,7 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 - Intake: This ticket simulates an application failure affecting the Accounting department. End user Ken reports Adobe Reader does not launch and that 10 out of 12 of his coworkers cannot access it. It is originally marked as Normal priority with a default SLA under the "Personal Computers Issue" Help Topic.
 
-- Assignment and Communication: Tier 1 would claim the ticket and communicate with the end user Ken to find out who and what is affected. Ken confirms that 10 of 12 users are unable to launch Adobe Reader, coinciding with an ongoing internal audit, which increases the business impact. Based on the scope and severity of the issue, the ticket is upgraded to a High Priority with a Medium SLA.
+- Assignment and Communication: Tier 1 would claim the ticket and communicate with the end user Ken to find out who and what is affected. Ken confirms that 10 of 12 users are unable to launch Adobe Reader, coinciding with an ongoing internal audit, which increases the business impact. Based on the scope and severity of the issue, the ticket is upgraded to a High Priority with a Medium SLA. The Help Topic is relevant.
 
 - Working the Issue: Tier 1 troubleshooting includes remoting in to observe how the application behaves, confirming the issue persists after restarts and trying to launch it in safe mode. Further investigation shows that an Adobe Reader update deployed overnight has caused the application to stop launching.
 
@@ -61,9 +61,15 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 </p>
 <p>
 
-- This ticket simulates multiple scenarios within one ticket such as the only printer in the department not working, a computer being sluggish and Outlook application issues. End user Ken reports that the printer for the whole department is not printing despite the printer being powered on, online and loaded with paper. 
+- Intake: This ticket simulates multiple scenarios within one ticket such as the only printer in the department not working, a computer being sluggish and Outlook application issues. End user Ken reports that the printer for the whole department is not printing despite the printer being powered on, online and loaded with paper. He also reports his computer is slow and his Outlook refuses to launch. It is originally marked as Normal priority with a default SLA under the "Personal Computer Issues" Help Topic.
 
-- Printer issue here takes priority due to its scope and business impact which determines that the ticket be upgraded to Emergency priority with a High SLA level. 
+- Assignment and Communication: Tier 1 support would claim the ticket and communicate with end user Ken to figure out the scope and impact. Ken reports that the entire department cannot print using the printer, which is the only one in the department. They also confirm that the slow PC and Outlook issues are isolated only to his system, with the PC being overall slow regardless of apps being open, and Outlook hanging when trying to be launched. Printer issue here takes priority due to its scope and business impact which determines that the ticket be upgraded to Emergency priority with a High SLA level and moved to the "Business Critical" Help Topic.
+
+- Working the Issue: Tier 1 troubleshooting includes confirming the basics such as the printer having ink and paper, checking connectivity to see if it is online and powered on, and then reviewing the print queue/spooler. Investigation shows that the print queue is stuck, preventing print jobs from processing. Troubleshooting this issue is done by clearing the queue and restarting the print spooler service, which allows for the printer to work again. End user Ken confirms that they and others can print again and this incident is resolved.
+
+  - Second issue of priority involves the slow PC issue. Basic trouleshooting is conducted such as checking what apps are open and looking in task manager to observe system resource usage. Task Manager observation shows that the PC has an unusually high uptime, causing performance issues. A resolution is provided by advising the end user to restart their computer to refresh system resources. End user Ken confirms the issue has been fixed and this incident is resolved.
+
+  - Third issue of priority involves the Outlook issue. Basic troubleshooting is conducted such as verifying connectivity, restarting the app and system (already done), and testing Outlook in safe mode. It is observed that Outlook opens under safe mode, which indicates a likely issue with add-ins or user profile configuration. As a first step, optional add-ins are disabled, allowing Outlook to launch normally. Add-ins are then re-enabled individually to isolate the faulty component. After identifying and removing the problematic add-in, the end user verifies that Outlook functions normally. The incident is resolved and the ticket is fully closed.
 
 </p>
 <br />
