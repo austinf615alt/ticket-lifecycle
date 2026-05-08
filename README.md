@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Ticket Resolution Examples:</h1>
+<h1>osTicket - Ticket Lifecycle: Intake to Resolution</h1>
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 <h2>Environments and Technologies Used</h2>
@@ -15,10 +15,16 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 - Windows Server 2025 Datacenter X64 Gen2</b> 
 
-<h2>Ticket Resolution Examples</h2>
+<h2>Ticket Lifecycle Stages</h2>
 
-- This project demonstrates how IT support tickets are prioritized, categorized, resolved, and escalated based on severity and impact.
-- 
+- Intake
+  
+- Assignment and Communication
+  
+- Working the Issue
+  
+- Resolution
+  
 <h2>Ticket Resolutions</h2>
 
 <p>
@@ -57,6 +63,10 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 <img width="2403" height="1216" alt="LAB2A-TicketResolve5" src="https://github.com/user-attachments/assets/d655e5b3-4bad-4135-bec6-d33dfe07fd5c" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+- This ticket simulates multiple scenarios within one ticket such as the only printer in the department not working, a computer being sluggish and Outlook application issues. End user Ken reports that the printer for the whole department is not printing despite the printer being powered on, online and loaded with paper. 
+
+- Printer issue here takes priority due to its scope and business impact which determines that the ticket be upgraded to Emergency priority with a High SLA level. 
+
 </p>
 <br />
