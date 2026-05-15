@@ -34,7 +34,7 @@ This project outlines the lifecycle of a ticket from intake to resolution within
 </p>
 <p>
 
-- Simulated end-user ticket submission by logging into the osTicket end-user portal as **Karen** and submitting a new ticket reporting that the **entire mobile/online banking system was down**, affecting all customers and internal users.
+- Simulated end-user ticket submission by logging into the osTicket end-user portal as **Karen** and submitting a new ticket reporting that the **entire mobile/online banking system was down**, affecting all customers and internal users at the branch.
 
 </p>
 <br />
