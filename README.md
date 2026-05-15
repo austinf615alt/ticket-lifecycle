@@ -34,7 +34,7 @@ This project outlines the lifecycle of a ticket from intake to resolution within
 </p>
 <p>
 
-Simulated end-user ticket submission by logging into the osTicket end-user portal as **Karen** and submitting a new ticket reporting that the **entire mobile/online banking system was down**, affecting all customers and internal users.
+- Simulated end-user ticket submission by logging into the osTicket end-user portal as **Karen** and submitting a new ticket reporting that the **entire mobile/online banking system was down**, affecting all customers and internal users.
 
 </p>
 <br />
@@ -44,7 +44,7 @@ Simulated end-user ticket submission by logging into the osTicket end-user porta
 </p>
 <p>
 
-Authenticated into the Agent Panel as Help Desk Agent **John** to begin the triage process and review incoming tickets from the queue.
+- Authenticated into the Agent Panel as Help Desk Agent **John** to begin the triage process and review incoming tickets from the queue.
 
 </p>
 <br />
@@ -54,7 +54,7 @@ Authenticated into the Agent Panel as Help Desk Agent **John** to begin the tria
 </p>
 <p>
 
-Opened the incoming ticket as **John** to assess its default properties — noting that **Priority**, **Department**, **SLA**, and **Assigned To** were all unset, reflecting the raw state of a ticket prior to triage.
+- Opened the incoming ticket as **John** to assess its default properties — noting that **Priority**, **Department**, **SLA**, and **Assigned To** were all unset, reflecting the raw state of a ticket prior to triage.
 
 </p>
 <br />
@@ -68,7 +68,7 @@ Opened the incoming ticket as **John** to assess its default properties — noti
 </p>
 <p>
 
-Initiated simulated contact with the end user to gather additional details. Based on the reported impact — a complete outage of the mobile and online banking platform — escalated the ticket **Priority** to **Emergency**, reflecting the critical business impact and urgency of the issue.
+- Initiated simulated contact with the end user to gather additional details. Based on the reported impact — a complete outage of the mobile and online banking platform — escalated the ticket **Priority** to **Emergency**, reflecting the critical business impact and urgency of the issue.
 
 </p>
 <br />
@@ -78,7 +78,7 @@ Initiated simulated contact with the end user to gather additional details. Base
 </p>
 <p>
 
-Updated the **SLA Plan** to **Sev-A** (1-hour grace period, 24/7 schedule), appropriate given that a full banking system outage constitutes a business-critical incident requiring immediate around-the-clock resolution.
+- Updated the **SLA Plan** to **Sev-A** (1-hour grace period, 24/7 schedule), appropriate given that a full banking system outage constitutes a business-critical incident requiring immediate around-the-clock resolution.
 
 </p>
 <br />
@@ -88,7 +88,7 @@ Updated the **SLA Plan** to **Sev-A** (1-hour grace period, 24/7 schedule), appr
 </p>
 <p>
 
-Updated the **Help Topic** to **Business Critical Outage** to accurately reflect the nature of the issue — a system-wide banking platform failure affecting branch operations — ensuring proper categorization for reporting and routing purposes.
+- Updated the **Help Topic** to **Business Critical Outage** to accurately reflect the nature of the issue — a system-wide banking platform failure affecting branch operations — ensuring proper categorization for reporting and routing purposes.
 
 </p>
 <br />
@@ -98,7 +98,7 @@ Updated the **Help Topic** to **Business Critical Outage** to accurately reflect
 </p>
 <p>
 
-Reassigned the ticket to agent **Jane** (SysAdmins department), as the severity and scope of the outage exceeded Tier 1 support capabilities. The ticket was escalated to a SysAdmin with the permissions and expertise required to investigate and remediate a platform-level failure.
+- Reassigned the ticket to agent **Jane** (SysAdmins department), as the severity and scope of the outage exceeded Tier 1 support capabilities. The ticket was escalated to a SysAdmin with the permissions and expertise required to investigate and remediate a platform-level failure.
 
 </p>
 <br />
@@ -108,7 +108,7 @@ Reassigned the ticket to agent **Jane** (SysAdmins department), as the severity 
 </p>
 <p>
 
-Transferred the ticket's **Department** to **SysAdmins**, aligning the ticket's ownership with the team responsible for infrastructure-level resolution and ensuring proper departmental routing within osTicket.
+- Transferred the ticket's **Department** to **SysAdmins**, aligning the ticket's ownership with the team responsible for infrastructure-level resolution and ensuring proper departmental routing within osTicket.
 
 </p>
 <br />
@@ -118,7 +118,7 @@ Transferred the ticket's **Department** to **SysAdmins**, aligning the ticket's 
 </p>
 <p>
 
-Verified osTicket's **department-based access control** by attempting to view the transferred ticket as **John**. As expected, John no longer had visibility into the ticket after it was moved to the SysAdmins department — confirming that ticket access is properly scoped to department membership.
+- Verified osTicket's **department-based access control** by attempting to view the transferred ticket as **John**. As expected, John no longer had visibility into the ticket after it was moved to the SysAdmins department — confirming that ticket access is properly scoped to department membership.
 
 </p>
 <br />
@@ -132,7 +132,7 @@ Verified osTicket's **department-based access control** by attempting to view th
 </p>
 <p>
 
-Authenticated into the Agent Panel as **Jane** (Super Admin role) to take ownership of the escalated ticket and begin active investigation of the banking system outage.
+- Authenticated into the Agent Panel as **Jane** (Super Admin role) to take ownership of the escalated ticket and begin active investigation of the banking system outage.
 
 </p>
 <br />
@@ -142,7 +142,7 @@ Authenticated into the Agent Panel as **Jane** (Super Admin role) to take owners
 </p>
 <p>
 
-Opened the ticket as **Jane** to review the full ticket history, triage notes left by John, and all updated properties — including the Sev-A SLA, Emergency priority, and Business Critical Outage classification — before proceeding with investigation.
+- Opened the ticket as **Jane** to review the full ticket history, triage notes left by John, and all updated properties — including the Sev-A SLA, Emergency priority, and Business Critical Outage classification — before proceeding with investigation.
 
 </p>
 <br />
@@ -152,7 +152,7 @@ Opened the ticket as **Jane** to review the full ticket history, triage notes le
 </p>
 <p>
 
-Posted an internal update and reply to the end user outlining the suspected root cause of the outage and the remediation steps being taken, maintaining transparent communication throughout the resolution process in accordance with SLA expectations.
+- Posted an internal update and reply to the end user outlining the suspected root cause of the outage and the remediation steps being taken, maintaining transparent communication throughout the resolution process in accordance with SLA expectations.
 
 </p>
 <br />
@@ -166,7 +166,7 @@ Posted an internal update and reply to the end user outlining the suspected root
 </p>
 <p>
 
-Confirmed that the applied fix successfully restored the mobile and online banking system. Communicated resolution status to the end user and documented the fix within the ticket thread for documentation purposes.
+- Confirmed that the applied fix successfully restored the mobile and online banking system. Communicated resolution status to the end user and documented the fix within the ticket thread for documentation purposes.
 
 </p>
 <br />
@@ -176,7 +176,7 @@ Confirmed that the applied fix successfully restored the mobile and online banki
 </p>
 <p>
 
-Verified full service restoration and closed the ticket as **Closed**. The complete lifecycle — from end-user submission through Tier 1 triage, SysAdmin escalation, and resolution — was documented within the ticket thread.
+- Verified full service restoration and closed the ticket as **Closed**. The complete lifecycle — from end-user submission through Tier 1 triage, SysAdmin escalation, and resolution — was documented within the ticket thread.
 
 </p>
 <br />
@@ -192,7 +192,7 @@ Verified full service restoration and closed the ticket as **Closed**. The compl
 </p>
 <p>
 
-Simulated end-user ticket submission by logging into the osTicket portal as **Ken** and submitting a ticket reporting that **Adobe Reader was broken for the Accounting department**.
+- Simulated end-user ticket submission by logging into the osTicket portal as **Ken** and submitting a ticket reporting that **Adobe Reader was broken for the Accounting department**.
 
 </p>
 <br />
@@ -202,7 +202,7 @@ Simulated end-user ticket submission by logging into the osTicket portal as **Ke
 </p>
 <p>
 
-Signed into the Agent Panel as Help Desk Agent **John** to begin reviewing the newly submitted ticket from the queue.
+- Signed into the Agent Panel as Help Desk Agent **John** to begin reviewing the newly submitted ticket from the queue.
 
 </p>
 <br />
@@ -212,7 +212,7 @@ Signed into the Agent Panel as Help Desk Agent **John** to begin reviewing the n
 </p>
 <p>
 
-Opened the ticket as **John** to assess its initial properties. Reviewed the reported issue — Adobe Reader non-functional for some in the Accounting department — and noted that **Priority**, **SLA**, **Department**, and **Assigned To** were all pending triage assignment.
+- Opened the ticket as **John** to assess its initial properties. Reviewed the reported issue — Adobe Reader non-functional for some in the Accounting department — and noted that **Priority**, **SLA**, **Department**, and **Assigned To** were all pending triage assignment.
 
 </p>
 <br />
@@ -226,7 +226,7 @@ Opened the ticket as **John** to assess its initial properties. Reviewed the rep
 </p>
 <p>
 
-Conducted scope investigation by contacting end user **Ken** directly to determine the impact scope. Confirmed that **10 out of 12 Accounting staff** were affected and that the outage was particularly time-sensitive given an **active internal audit** in progress, elevating the business urgency of the ticket.
+- Conducted scope investigation by contacting end user **Ken** directly to determine the impact scope. Confirmed that **10 out of 12 Accounting staff** were affected and that the outage was particularly time-sensitive given an **active internal audit** in progress, elevating the business urgency of the ticket.
 
 </p>
 <br />
@@ -236,7 +236,7 @@ Conducted scope investigation by contacting end user **Ken** directly to determi
 </p>
 <p>
 
-Escalated the ticket **Priority** to **High** based on the number of affected users and the time-sensitive nature of the ongoing audit, documenting the rationale within the ticket thread to maintain a clear triage record.
+- Escalated the ticket **Priority** to **High** based on the number of affected users and the time-sensitive nature of the ongoing audit, documenting the rationale within the ticket thread to maintain a clear triage record.
 
 </p>
 <br />
@@ -246,7 +246,7 @@ Escalated the ticket **Priority** to **High** based on the number of affected us
 </p>
 <p>
 
-Updated the **SLA Plan** to **Sev-B** (4-hour grace period, 24/7 schedule) and assigned the ticket to the **Support** department. The Sev-B classification was appropriate given the high user impact and audit deadline sensitivity, while stopping short of Sev-A since core infrastructure remained operational.
+- Updated the **SLA Plan** to **Sev-B** (4-hour grace period, 24/7 schedule) and assigned the ticket to the **Support** department. The Sev-B classification was appropriate given the high user impact and audit deadline sensitivity, while stopping short of Sev-A since core infrastructure remained operational.
 
 </p>
 <br />
@@ -260,7 +260,7 @@ Updated the **SLA Plan** to **Sev-B** (4-hour grace period, 24/7 schedule) and a
 </p>
 <p>
 
-Escalated internally by coordinating with **Austin from the Admin group** to identify the root cause. Determined that a **faulty Adobe Reader package had been pushed out the previous night**, making the application non-functional across the affected workstations. Identified two fixes: waiting one hour for a corrected package to be deployed automatically, or having end users manually install the updated package immediately. Communicated both options to the end user.
+- Escalated internally by coordinating with **Austin from the Admin group** to identify the root cause. Determined that a **faulty Adobe Reader package had been pushed out the previous night**, making the application non-functional across the affected workstations. Identified two fixes: waiting one hour for a corrected package to be deployed automatically, or having end users manually install the updated package immediately. Communicated both options to the end user.
 
 </p>
 <br />
@@ -270,7 +270,7 @@ Escalated internally by coordinating with **Austin from the Admin group** to ide
 </p>
 <p>
 
-Received confirmation from end user **Ken** that the manual installation of the fixed Adobe Reader package was successful across all affected machines. All 10 impacted Accounting staff members were restored to full functionality in time to support the ongoing audit.
+- Received confirmation from end user **Ken** that the manual installation of the fixed Adobe Reader package was successful across all affected machines. All 10 impacted Accounting staff members were restored to full functionality in time to support the ongoing audit.
 
 </p>
 <br />
@@ -284,7 +284,7 @@ Received confirmation from end user **Ken** that the manual installation of the 
 </p>
 <p>
 
-Documented the confirmed fix — a faulty package deployment corrected via manual reinstallation — and officially closed the ticket. The full ticket lifecycle, including scope investigation, SLA assignment, root cause analysis, and end user communication, was captured within the ticket thread for future reference.
+- Documented the confirmed fix — a faulty package deployment corrected via manual reinstallation — and officially closed the ticket. The full ticket lifecycle, including scope investigation, SLA assignment, root cause analysis, and end user communication, was captured within the ticket thread for future reference.
 
 </p>
 <br />
